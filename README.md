@@ -36,6 +36,7 @@ QH4框架扩展模块-收货地址管理模块
 ```php
     /**
      * 新增
+     * 必选参数 user_id  city_id  name  phone  is_default  detail
      * @return array
      */
     public function actionCreate()
@@ -46,6 +47,7 @@ QH4框架扩展模块-收货地址管理模块
 ```php
     /**
      * 更新
+     * 必选参数 id user_id  city_id  name  phone  is_default  detail
      * @return array
      */
     public function actionUpdate()
@@ -56,6 +58,7 @@ QH4框架扩展模块-收货地址管理模块
 ```php
     /**
      * 删除
+     * 必选参数 id
      * @return array
      */
     public function actionDelete()
@@ -65,6 +68,7 @@ QH4框架扩展模块-收货地址管理模块
 
 ```php
     /**
+     * 必选参数 id
      * 设置默认
      * @return array
      */
